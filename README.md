@@ -1,5 +1,11 @@
 # yad2ibiza
 
+## Project Explanation:
+With this project you can get an automated push notifications to your phone regarding ads at Yad 2.
+Everytime there's a new ad you searched for at Yad 2 you will know about it right away.
+For now, it searches for something specific - Seat Ibiza between the years 2016-2018 and more filters.
+Later, I'll add a config file to make a dynamic search and be useful for more people.
+
 ## init:
 1. clone the project
 2. download python 3 (doesn't matter which specific version)
