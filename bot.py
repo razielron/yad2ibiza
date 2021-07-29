@@ -24,6 +24,8 @@ class Bot(Yad2):
             for y in arr2:
                 if(x['url'] == y['url']):
                     arr2.remove(y)
+
+        arr3 = sorted(arr1 + arr2, key=lambda x: x['date_added'])
         return arr1 + arr2
 
     def get_new_items(self, arr1, arr2):
@@ -37,6 +39,8 @@ class Bot(Yad2):
                 
             if (not is_exist):
                 arr3.append(x)
+
+        arr3 = sorted(arr3, key=lambda x: x['date_added'])
         return arr3
 
     def join_perfect(self, arr):
@@ -59,7 +63,7 @@ class Bot(Yad2):
             print('-Nothing New-')
 
     def run(self, keep_run_func):
-        interval_time = 10 #seconds
+        interval_time = 60 * 5 #seconds
 
         while(keep_run_func()):
             current_list = self.get_items()
