@@ -6,7 +6,7 @@
 3. run this command: `pip install -r requirements.txt`
 
 ## config:
-1. open on browser https://www.pushbullet.com/
+1. open on your browser https://www.pushbullet.com/
 2. create an account
 3. download the app pushbullet
 4. connect your device and login, enable push notifications
