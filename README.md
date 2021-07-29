@@ -3,8 +3,7 @@
 ## init:
 1. clone the project
 2. download python 3 (doesn't matter which specific version)
-3. run those commands:
-4. pip install -r requirements.txt
+3. run this command: `pip install -r requirements.txt`
 
 ## config:
 1. open on browser https://www.pushbullet.com/
