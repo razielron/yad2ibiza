@@ -4,11 +4,7 @@
 1. clone the project
 2. download python 3 (doesn't matter which specific version)
 3. run those commands:
-4. pip install requests
-5. pip install time
-6. pip install winsound
-7. pip install threading
-8. pip install pushbullet.py
+4. pip install -r requirements.txt
 
 ## config:
 1. open on browser https://www.pushbullet.com/
